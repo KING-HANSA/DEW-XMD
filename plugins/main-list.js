@@ -312,10 +312,10 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 ◈ •gitclone 
 ◈ •twitter
 ◈ •tiktok
-◈ •tiktokstalk
+◈ •gimage
 ◈ •insta
 ◈ •igstory
-◈ •igstalk
+◈ •mediafire
 ◈ •facebook
 ◈ •wallpapers
 ◈ •rwall
