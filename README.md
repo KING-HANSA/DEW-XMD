@@ -77,7 +77,7 @@ To set up the ULTRA-MD quickly, follow our detailed tutorial on YouTube:
 ## Deployment Options
 
 ### **Fork & Star the Repository**
-   - Start by forking this repository and giving it a ⭐ to support Globaltechinfo!
+   - Start by forking this repository and giving it a ⭐ to support GlobalTechInfo!
      To set up the ULTRA MD quickly, first fork this repository:
 [![ULTRA MD Github Repo](https://img.shields.io/badge/Github-Fork%20Repo-red?style=for-the-badge&logo=Github)](https://github.com/GlobalTechInfo/ULTRA-MD/fork)
 
@@ -305,7 +305,7 @@ This project is licensed under the [Apache-2.0 license](LICENSE) - see the LICEN
 
 ## ⚠️ Disclaimer
 
-*ULTRA MD Bot is not affiliated with WhatsApp Inc. Misusing the bot could result in a temporary or permanent WhatsApp ban. Globaltechinfo is not responsible for any bans or restrictions that may occur.*
+*ULTRA MD Bot is not affiliated with WhatsApp Inc. Misusing the bot could result in a temporary or permanent WhatsApp ban. GlobalTechInfo is not responsible for any bans or restrictions that may occur.*
 
 ---
 
