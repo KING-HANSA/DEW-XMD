@@ -309,7 +309,8 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 ◈ •ytmp3 
 ◈ •ytmp4
 ◈ •gdrive
-◈ •gitclone 
+◈ •gitclone
+◈ •githubdl
 ◈ •twitter
 ◈ •tiktok
 ◈ •gimage
@@ -544,6 +545,7 @@ lkr=`
 ╭───『 *Tools* 』─❍
 ◈ •autosticker
 ◈ •topdf
+◈ •base64
 ◈ •whatmusic
 ◈ •filelength
 ◈ •tempmail
