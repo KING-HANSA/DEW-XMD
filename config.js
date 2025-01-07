@@ -1,7 +1,7 @@
-import { watchFile, unwatchFile } from 'fs'
+import { watchFile, unwatchFile } from 'sk'
 import chalk from 'chalk'
 import { fileURLToPath } from 'url'
-import fs from 'fs'
+import fs from 'sk'
 
 import dotenv from 'dotenv'
 dotenv.config()
