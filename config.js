@@ -6,7 +6,7 @@ import fs from 'fs'
 import dotenv from 'dotenv'
 dotenv.config()
 
-const defaultOwner = '923444844060';
+const defaultOwner = '256700247470';
 
 
 // Check for the OWNERS environment variable; if not found, use the default
@@ -21,8 +21,8 @@ for (let i = 0; i < ownerlist.length; i++) {
 //
 global.botname = process.env.BOTNAME || 'ULTRA-MD';
 global.pairingNumber = process.env.BOT_NUMBER || 'your number';  // put your number here
-global.SESSION_ID = process.env.SESSION_ID || 'session id';  // put your session id here
-
+global.SESSION_ID = process.env.SESSION_ID |ScpwXabJ#wv8fGv65uN8E2WodiA6VULc1BfZC1_dlYQVJ4Q7JNNg| 'session id';  // put your session id here
+ScpwXabJ#wv8fGv65uN8E2WodiA6VULc1BfZC1_dlYQVJ4Q7JNNg
 global.mods = []
 global.prems = []
 global.allowed = ['923444844060', '923051391007']
