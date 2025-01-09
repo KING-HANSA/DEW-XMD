@@ -21,8 +21,8 @@ let handler = async (m, { conn, usedPrefix }) => {
     let greeting = ucapan();
 
     let str = `
-      『 *ULTRA-MD* 』  
-      © 2024 *GlobalTechInfo*`;
+      『 *DEW-MD* 』  
+      © 2024 *Hansa Dewmina*`;
 
     let msg = generateWAMessageFromContent(m.chat, {
         viewOnceMessage: {
@@ -39,7 +39,7 @@ let handler = async (m, { conn, usedPrefix }) => {
                         text: "Use The Below Buttons"
                     }),
                     header: proto.Message.InteractiveMessage.Header.create({
-                        ...(await prepareWAMessageMedia({ image: { url: './assets/Ultra.jpg' } }, { upload: conn.waUploadToServer })),
+                        ...(await prepareWAMessageMedia({ image: { url: './assets/DewBotLogo' } }, { upload: conn.waUploadToServer })),
                         title: null,
                         subtitle: null,
                         hasMediaAttachment: false
@@ -52,7 +52,7 @@ let handler = async (m, { conn, usedPrefix }) => {
                                     "title": "TAP TO OPEN",
                                     "sections": [{
                                         "title": "HERE IS BUTTONS MENU",
-                                        "highlight_label": "ULTRA",
+                                        "highlight_label": "DEW-MD",
                                         "rows": [
                                             { "header": "", "title": "🎁 Bot Menu", "description": "The Bot's secret control panel.", "id": `${usedPrefix}botmenu` },
                                             { "header": "", "title": "🖲️ Owner Menu", "description": "Yep, that's for you, Boss!", "id": `${usedPrefix}ownermenu` },
