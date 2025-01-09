@@ -24,7 +24,7 @@ let handler = async (m, { conn }) => {
     const buffer = Buffer.from(arrayBuffer)
 
     // Send the image with a thumbnail and custom message
-    await conn.sendFile(m.chat, img, '', '*𝙿𝙾𝚆𝙴𝚁𝙴𝙳 𝙱𝚈 © 𝚄𝙻𝚃𝚁𝙰-𝙼𝙳*', m, 0, {
+    await conn.sendFile(m.chat, img, '', '*POWERD BY DEW-MD*', m, 0, {
       thumbnail: buffer, // Use the Buffer for the thumbnail
     })
 
