@@ -6,7 +6,7 @@ import fs from 'fs'
 import dotenv from 'dotenv'
 dotenv.config()
 
-const defaultOwner = '923444844060';
+const defaultOwner = '94778721239';
 
 
 // Check for the OWNERS environment variable; if not found, use the default
@@ -19,7 +19,7 @@ for (let i = 0; i < ownerlist.length; i++) {
     global.owner.push([ownerlist[i], true]);
 }
 //
-global.botname = process.env.BOTNAME || 'ULTRA-MD';
+global.botname = process.env.BOTNAME || 'DEW-MD';
 global.pairingNumber = process.env.BOT_NUMBER || '94778721239';  // put your number here
 global.SESSION_ID = process.env.SESSION_ID || '';  // put your session id here
 
@@ -73,16 +73,16 @@ global.APIKeys = {
 
 // Sticker WM
 global.premium = 'true'
-global.packname = 'GLOBAL-MD'
-global.author = 'GlobalTechInfo'
+global.packname = 'DEW-MD'
+global.author = 'HansaDewmina'
 global.menuvid = 'https://i.imgur.com/2U2K9YA.mp4'
-global.igfg = ' Follow on Instagram\nhttps://www.instagram.com/global.techinfo'
+global.igfg = ' Follow on Instagram\nhttps://www.instagram.com/hansa_dewmina_lk'
 global.dygp = 'https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07'
-global.fgsc = 'https://github.com/GlobalTechInfo/ULTRA-MD'
-global.fgyt = 'https://youtube.com/@GlobalTechInfo'
-global.fgpyp = 'https://youtube.com/@GlobalTechInfo'
-global.fglog = 'https://i.ibb.co/G2dh9cB/qasim.jpg'
-global.thumb = fs.readFileSync('./assets/qasim.jpg')
+global.fgsc = 'https://github.com/KING-HANSA/DEW-XMD'
+global.fgyt = 'https://youtube.com/@DJ_Dewmina'
+global.fgpyp = 'https://youtube.com/@DJ_Dewmina'
+global.fglog = 'https://raw.githubusercontent.com/KING-HANSA/DEW-MD/refs/heads/main/lib/assets/Dew%20Bot%20Logo.jpg'
+global.thumb = fs.readFileSync('./assets/DewBotLogo.jpg')
 
 global.wait = '⏳'
 global.rwait = '⏳'
