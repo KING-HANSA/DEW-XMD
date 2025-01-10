@@ -81,8 +81,8 @@ global.dygp = 'https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07'
 global.fgsc = 'https://github.com/GlobalTechInfo/ULTRA-MD'
 global.fgyt = 'https://youtube.com/@GlobalTechInfo'
 global.fgpyp = 'https://youtube.com/@GlobalTechInfo'
-global.fglog = 'https://i.ibb.co/G2dh9cB/qasim.jpg'
-global.thumb = fs.readFileSync('./assets/qasim.jpg')
+global.fglog = 'https://i.imgur.com/JL9z4b0.jpeg'
+global.thumb = fs.readFileSync('./assets/DewBotLogo.jpg')
 
 global.wait = '⏳'
 global.rwait = '⏳'
