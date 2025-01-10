@@ -558,8 +558,8 @@ async function connectionUpdate(update) {
 
   if (connection === 'open') {
     const { jid, name } = conn.user
-    const msg = `*ULTRA-MD Connected* \n\n *Prefix  : [ . ]* \n\n *Plugins : 340* \n\n *SUPPORT BY SUBSCRIBE*
-*youtube.com/@GlobalTechInfo*`
+    const msg = `*DEW-XMD Connected* \n\n *Prefix  : [ . ]* \n\n *Plugins : 340* \n\n *SUPPORT BY SUBSCRIBE*
+*youtube.com/@KingHansa*`
 
     await conn.sendMessage(jid, { text: msg, mentions: [jid] }, { quoted: null })
 
