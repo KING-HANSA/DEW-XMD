@@ -31,7 +31,7 @@ const handler = async (m, { conn, args }) => {
     const mimetype = video ? 'video/mp4' : 'image/jpeg';
     
     // Send the media file
-    await conn.sendFile(m.chat, mediaBuffer, fileName, `*𝙿𝙾𝚆𝙴𝚁𝙴𝙳 𝙱𝚈 © 𝚄𝙻𝚃𝚁𝙰-𝙼𝙳*`, m, false, { mimetype });
+    await conn.sendFile(m.chat, mediaBuffer, fileName, `*POWERD BY © DEW-XMD*`, m, false, { mimetype });
     m.react('✅');
   } catch (error) {
     console.error('Error downloading from CapCut:', error.message, error.stack);
