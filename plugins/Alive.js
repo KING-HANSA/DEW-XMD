@@ -24,7 +24,7 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
         title: '© DEW-MD',
         body: '© DEW-MD',
         thumbnailUrl: img,
-        sourceUrl: 'https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07',
+        sourceUrl: 'https://whatsapp.com/channel/0029Varwcfc7YSd60AulNF2h',
         mediaType: 1,
         renderLargerThumbnail: true,
       },
