@@ -1,8 +1,8 @@
 FROM quay.io/gurusensei/gurubhay:latest
 
-RUN git clone https://github.com/GlobalTechInfo/ULTRA-MD /root/global
+RUN git clone https://github.com/KING-HANSA/DEW-XMD /root/DEW
 
-WORKDIR /root/global/
+WORKDIR /root/DEW/
 
 RUN npm install --platform=linuxmusl
 
