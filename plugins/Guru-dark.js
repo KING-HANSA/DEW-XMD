@@ -18,10 +18,10 @@ let handler = async (m, { conn, text, args, usedPrefix, command }) => {
       m.chat, 
       replyText, 
       author, 
-      'https://letemoinhaiti.com/home/wp-content/uploads/2024/03/img_9025-1-850x560.jpg', 
+      'https://i.imgur.com/JL9z4b0.jpeg', 
       [['Script', `.sc`]], 
       null, 
-      [['Follow Me', `https://github.com/Guru322`]], 
+      [['Follow Me', `https://github.com/KING-HANSA`]], 
       m
     );
   } catch (error) {
