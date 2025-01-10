@@ -63,7 +63,7 @@ const handler = async (m, { conn, args }) => {
     const fileName = mediaData.data.title ? `${mediaData.data.title}.mp4` : 'media.mp4';
     const mimetype = 'video/mp4';
 
-    await conn.sendFile(m.chat, mediaBuffer, fileName, `*𝙿𝙾𝚆𝙴𝚁𝙴𝙳 𝙱𝚈 © 𝚄𝙻𝚃𝚁𝙰-𝙼𝙳*`, m, false, { mimetype });
+    await conn.sendFile(m.chat, mediaBuffer, fileName, `*POWERD BY © DEW-XMD*`, m, false, { mimetype });
     m.react('✅');
   } catch (error) {
     console.error('Error downloading from Likee:', error.message, error.stack);
