@@ -19,7 +19,7 @@ for (let i = 0; i < ownerlist.length; i++) {
     global.owner.push([ownerlist[i], true]);
 }
 //
-global.botname = process.env.BOTNAME || 'ULTRA-MD';
+global.botname = process.env.BOTNAME || 'DEW-XMD';
 global.pairingNumber = process.env.BOT_NUMBER || '94778721239';  // put your number here
 global.SESSION_ID = process.env.SESSION_ID || '7JonVbgS#SjSZR6KrO51ueXxv8lFKjctF2eCVkAFNwB9PHgkKnxs';  // put your session id here
 
@@ -42,7 +42,7 @@ global.keysneoxrrr = ['5VC9rvNx', 'cfALv5']
 global.keysneoxr = keysneoxrrr[Math.floor(keysneoxrrr.length * Math.random())]
 global.lolkeysapi = ['GataDios']
 
-global.canal = 'https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07'
+global.canal = 'https://whatsapp.com/channel/0029Varwcfc7YSd60AulNF2h'
 
 
 global.APIs = {
@@ -73,12 +73,12 @@ global.APIKeys = {
 
 // Sticker WM
 global.premium = 'true'
-global.packname = 'GLOBAL-MD'
-global.author = 'GlobalTechInfo'
+global.packname = 'DEW-MD'
+global.author = 'HansaDewmina'
 global.menuvid = 'https://i.imgur.com/2U2K9YA.mp4'
 global.igfg = ' Follow on Instagram\nhttps://www.instagram.com/global.techinfo'
 global.dygp = 'https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07'
-global.fgsc = 'https://github.com/GlobalTechInfo/ULTRA-MD'
+global.fgsc = 'https://github.com/KING-HANSA/DEW-XMD'
 global.fgyt = 'https://youtube.com/@GlobalTechInfo'
 global.fgpyp = 'https://youtube.com/@GlobalTechInfo'
 global.fglog = 'https://i.imgur.com/JL9z4b0.jpeg'
