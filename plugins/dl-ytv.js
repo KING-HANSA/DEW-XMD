@@ -45,7 +45,7 @@ const handler = async (m, { args, conn, usedprefix }) => {
         }
 
         const title = response.data.title || 'video';
-        const caption = `𝘗𝘖𝘞𝘌𝘙𝘌𝘋 𝘉𝘠 © 𝘜𝘓𝘛𝘙𝘈-𝘔𝘋`;
+        const caption = `POWERD BY © DEW-XMD`;
 
         // Fetch the video file with retry
         const mediaResponse = await fetchWithRetry(videoUrl, {
