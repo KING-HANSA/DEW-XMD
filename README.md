@@ -16,7 +16,7 @@
   
 ----
 
- <p align="center"><img src="https://profile-counter.glitch.me/{ULTRA-MD}/count.svg" alt="GlobalTechInfo :: Visitor's Count" old_src="https://profile-counter.glitch.me/{GlobalTechInfo}/count.svg" /></p>
+ <p align="center"><img src="https://profile-counter.glitch.me/{DEW-XMD}/count.svg" alt="GlobalTechInfo :: Visitor's Count" old_src="https://profile-counter.glitch.me/{GlobalTechInfo}/count.svg" /></p>
 
 ----
 <h1 align="center"> EXTERNAL PLUGINS </h1>
