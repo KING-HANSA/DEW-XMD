@@ -84,7 +84,7 @@ To set up the ULTRA-MD quickly, follow our detailed tutorial on YouTube:
 ### **PAIRING CODE QR CODE**
    - Visit the bot site to generate a pairing code and get **SESSION ID.**
 
-     [![ULTRA-MD Github Repo](https://img.shields.io/badge/Whatsapp-Pair%20Code-green?style=for-the-badge&logo=Whatsapp)](https://ultra-pair-e2afa02e65c6.herokuapp.com/)
+     [![ULTRA-MD Github Repo](https://img.shields.io/badge/Whatsapp-Pair%20Code-green?style=for-the-badge&logo=Whatsapp)](https://web-pair-hansa-production.up.railway.app/)
 
 ### **Step-by-Step Deployment Guide**
 
