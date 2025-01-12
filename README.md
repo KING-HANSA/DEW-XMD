@@ -8,9 +8,9 @@
 </p>
 <p align="center">
 <a href="https://github.com/KING-HANSA?tab=followers"><img title="Followers" src="https://img.shields.io/github/followers/KING-HANSA?label=Followers&style=social"></a>
-<a href="https://github.com/GlobalTechInfo/ULTRA-MD/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/GlobalTechInfo/ULTRA-MD?&style=social"></a>
-<a href="https://github.com/GlobalTechInfo/ULTRA-MD/network/members"><img title="Fork" src="https://img.shields.io/github/forks/GlobalTechInfo/ULTRA-MD?style=social"></a>
-<a href="https://github.com/GlobalTechInfo/ULTRA-MD/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/GlobalTechInfo/ULTRA-MD?label=Watching&style=social"></a>
+<a href="https://github.com/KING-HANSA/DEW-XMD/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/KING-HANSA/DEW-XMD?&style=social"></a>
+<a href="https://github.com/KING-HANSA/DEW-XMD/network/members"><img title="Fork" src="https://img.shields.io/github/forks/KING-HANSA/DEW-XMD?style=social"></a>
+<a href="https://github.com/KINF-HANSA/DEW-XMD/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/KING-HANSA/DEW-XMD?label=Watching&style=social"></a>
 </p>
 <p align="center">
   
