@@ -22,7 +22,7 @@
 <h1 align="center"> EXTERNAL PLUGINS </h1>
 
 <p align="center">
-<a href="https://github.com/GlobalTechInfo/EXTERNAL-PLUGINS"><img title="Author" src="https://img.shields.io/badge/ULTRA MD-PLUGINS-black?style=for-the-badge&logo=Github"></a>
+<a href="https://github.com/KING-HANSA/DEW-XMD"><img title="Author" src="https://img.shields.io/badge/DEW-MD-PLUGINS-black?style=for-the-badge&logo=Github"></a>
 <p/>
 
   
@@ -30,7 +30,7 @@
  <h2 align="center">  NOTE
 </h2>
 
-#### No Worries If You Don't Have pre connection/SESSION_ID , Just Put Your Number In The Value Of BOT_NUMBER, e.g BOT_NUMBER = '923444844XXX' , Either In config.js or .env file , And Deploy The Bot, You'll Get A Pairing Code Directly In The Terminal at The End Of Deployment, Pair And Get Connected.
+#### No Worries If You Don't Have pre connection/SESSION_ID , Just Put Your Number In The Value Of BOT_NUMBER, e.g BOT_NUMBER = '94701515XXX' , Either In config.js or .env file , And Deploy The Bot, You'll Get A Pairing Code Directly In The Terminal at The End Of Deployment, Pair And Get Connected.
 
 ----
 
@@ -48,7 +48,7 @@ set the Env Vars.
 | MODE | mode public or private |
 | autoRead | make it true if you want bot to read messages |
 | statusview | make it true if you want bot to view status | 
-| OWNERS | owner number e.g 923444844060 | 
+| OWNERS | owner number e.g 94701515609 | 
 | BOTNAME | Your Bot Name | 
 | antidelete | bot will forward deleted messages if you make it true | 
 
@@ -58,8 +58,8 @@ set the Env Vars.
 
 ## 🎬 Watch the Tutorial
 
-To set up the ULTRA-MD quickly, follow our detailed tutorial on YouTube:
-[![ULTRA-MD YouTube Tutorial](https://img.shields.io/badge/YouTube-Watch%20Tutorial-red?style=for-the-badge&logo=youtube)](https://youtu.be/nE4v4KWBfAU)
+To set up the DEW-XMD quickly, follow our detailed tutorial on YouTube:
+[![DEW-XMD YouTube Tutorial](https://img.shields.io/badge/YouTube-Watch%20Tutorial-red?style=for-the-badge&logo=youtube)](https://youtu.be/nE4v4KWBfAU)
 
 ---
 
@@ -79,7 +79,7 @@ To set up the ULTRA-MD quickly, follow our detailed tutorial on YouTube:
 ### **Fork & Star the Repository**
    - Start by forking this repository and giving it a ⭐ to support GlobalTechInfo!
      To set up the ULTRA MD quickly, first fork this repository:
-[![ULTRA MD Github Repo](https://img.shields.io/badge/Github-Fork%20Repo-red?style=for-the-badge&logo=Github)](https://github.com/GlobalTechInfo/ULTRA-MD/fork)
+[![ULTRA MD Github Repo](https://img.shields.io/badge/Github-Fork%20Repo-red?style=for-the-badge&logo=Github)](https://github.com/KING-HANSA/DEW-XMD/fork)
 
 ### **PAIRING CODE QR CODE**
    - Visit the bot site to generate a pairing code and get **SESSION ID.**
@@ -92,7 +92,7 @@ To set up the ULTRA-MD quickly, follow our detailed tutorial on YouTube:
 1. [Create an Account on Heroku](https://signup.heroku.com/) if you haven’t already.
 2. Click the button below to deploy directly on Heroku:
    <br>
-   <a href='https://heroku.com/deploy?template=https://github.com/GlobTechInfo/ULTRA-MD/Bypass' target="_blank">
+   <a href='https://heroku.com/deploy?template=https://github.com/KING-HANSA/DEW-XMD/Bypass' target="_blank">
       <img alt='Deploy on Heroku' src='https://img.shields.io/badge/-DEPLOY-purple?style=for-the-badge&logo=heroku&logoColor=white'/>
    </a>
 
@@ -108,7 +108,7 @@ To set up the ULTRA-MD quickly, follow our detailed tutorial on YouTube:
 1. [Create an Account on Railway](https://railway.app/login) if you don’t have one.
 2. Click the button below to deploy using Railway:
    <br>
-   <a href='https://railway.app/template/q20OfH?referralCode=b9IKyc' target="_blank">
+   <a href='https://railway.com/template/NvFCe5?referralCode=YyMBVQ' target="_blank">
       <img alt='Deploy on Railway' src='https://img.shields.io/badge/-DEPLOY-purple?style=for-the-badge&logo=railway&logoColor=white'/>
    </a>
 
@@ -132,13 +132,13 @@ To set up the ULTRA-MD quickly, follow our detailed tutorial on YouTube:
 1. [Create an Account on Replit](https://repl.it) if you don’t have one.
 2. Click the button below to deploy using Replit:
    <br>
-   <a href='https://repl.it/github/GlobalTechInfo/ULTRA-MD' target="_blank">
+   <a href='https://repl.it/github/KING-HANSA/DEW-XMD' target="_blank">
       <img alt='Deploy on Replit' src='https://img.shields.io/badge/-DEPLOY-orange?style=for-the-badge&logo=replit&logoColor=white'/>
    </a>
    
     **Option G: Deploy on Panel**
  1. First You Have to Sign up on discord using web or app then click below.
-2. [Sign Up On Panel](https://bot-hosting.net/?aff=1097457675723341836) if you don’t have Already.
+2. [Sign Up On Panel](https://bot-hosting.net) if you don’t have Already.
 4. Click the button below to deploy using Panel:
    <br>
    <a href='https://bot-hosting.net/?aff=1097457675723341836' target="_blank">
@@ -156,30 +156,17 @@ To set up the ULTRA-MD quickly, follow our detailed tutorial on YouTube:
 
 ## Support & Community
 
-<p align="center">Need help? Create an <a href="https://github.com/GlobalTechInfo/ULTRA-MD/issues">issue</a> or <a href="https://wa.me/923444844060?text=Hello+Global+Tech,+I+Need+Assistance+For+ULTRA+MD+Bot">Contact Us on WhatsApp</a>.</p>
+<p align="center">Need help? Create an <a href="https://github.com/KING-HANSA/DEW-XMD/issues">issue</a> or <a href="https://wa.me/94701515609?text=Hello+Hansa+Dewmina,+I+Need+Assistance+For+DEW+XMD+Bot">Contact Us on WhatsApp</a>.</p>
 
 ---
 
 ### 📜 Table of Contents
-1. [About ULTRA-MD](#-about-ultra-md)
+1. [About ULTRA-MD](#-about-DEW-XMD)
 2. [Features](#-features)
 3. [Installation](#-installation)
 4. [Usage](#-usage)
 5. [How to Contribute](#-how-to-contribute)
 6. [Connect with the Developer](#-connect-with-the-developer)
-
----
-
-### 🎩 About ULTRA-MD
-**ULTRA-MD** is a multi-functional WhatsApp bot designed for automatic reactions, status updates, motivational quotes, and music/media downloads. Built with the **Baileys API**, it aims to enhance user interaction with custom and automated responses. Whether you want fun interactions in a group, to download media from links, or to get motivational quotes, this bot does it all!
-
-Key features include:
-- **Autoreact**: If You enables, Bot Will Reats With **Beautiful Random Emojis** On All Messages In All Chats.
-- **Download Media** (audio/video) from URLs
-- **Send Motivational Quotes** in response to status updates
-- **Automatically Views Status Updates** with emojis
-- **Create "Would You Rather" polls** with shuffling answers
-- **Customizable Features**: Easily tweak settings for different bots!
 
 ---
 ### 🚀 Installation
@@ -188,7 +175,7 @@ To get started with this project, follow the steps below:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/GlobalTechInfo/ULTRA-MD.git
+   git clone https://github.com/KING-HANSA/DEW-XMD.git
 ---
 
 ### 💥 Features
@@ -238,7 +225,7 @@ To get started with this project, follow the steps below:
 ---
 ### 🛠 Usage
 
-Once the installation is complete and the bot is running, you can use the ULTRA-MD in your WhatsApp group or chat. Below are some key features and how to interact with them:
+Once the installation is complete and the bot is running, you can use the DEW-XMD in your WhatsApp group or chat. Below are some key features and how to interact with them:
 
 #### 1. **A Large Toolkit**
    - Your Personal Toolkit For Various Things To Do Easily.
@@ -285,17 +272,17 @@ Submit a pull request with a detailed description of your changes.
 ### 🧑‍💻 Connect with the Developer
 
 <p align="center">
-  <a href="https://github.com/GlobalTechInfo">
-    <img src="https://img.shields.io/badge/GitHub-GlobalTechInfo-blue?style=for-the-badge&logo=github&logoColor=white">
+  <a href="https://github.com/KING-HANSA">
+    <img src="https://img.shields.io/badge/GitHub-KING-HANSA-blue?style=for-the-badge&logo=github&logoColor=white">
   </a>
-  <a href="https://t.me/GlobalBotInc">
-    <img src="https://img.shields.io/badge/Telegram-@GlobalBotInc-1DA1F2?style=for-the-badge&logo=telegram&logoColor=white">
+  <a href="https://t.me/hansa-dewmina">
+    <img src="https://img.shields.io/badge/Telegram-@Hansa-Dewmina-1DA1F2?style=for-the-badge&logo=telegram&logoColor=white">
   </a>
-  <a href="https://wa.me/message/923444844060">
+  <a href="https://wa.me/message/94701515609">
     <img src="https://img.shields.io/badge/WhatsApp-Click%20Here%20to%20Message%20Me-25D366?style=for-the-badge&logo=whatsapp&logoColor=white">
   </a>
-  <a href="https://youtube.com/@GlobalTechInfo">
-    <img src="https://img.shields.io/badge/YouTube-@GlobalTechInfo-000000?style=for-the-badge&logo=youtube&logoColor=white">
+  <a href="https://youtube.com/@King-Hansa">
+    <img src="https://img.shields.io/badge/YouTube-@King-Hansa-000000?style=for-the-badge&logo=youtube&logoColor=white">
   </a>
 </p>
 ### 📄 License
@@ -303,13 +290,7 @@ This project is licensed under the [Apache-2.0 license](LICENSE) - see the LICEN
 
 
 
-## ⚠️ Disclaimer
-
-*ULTRA MD Bot is not affiliated with WhatsApp Inc. Misusing the bot could result in a temporary or permanent WhatsApp ban. GlobalTechInfo is not responsible for any bans or restrictions that may occur.*
-
----
-
-<p align="center">© GlobalTechInfo 2024</p>
+<p align="center">© DewminaCoders 2025</p>
 
   
   
@@ -353,8 +334,8 @@ exit
 proot-distro login ubuntu
 ```
 ```
-git clone https://github.com/<your gitHub Username>/ULTRA-MD
-cd ULTRA-MD
+git clone https://github.com/<your gitHub Username>/DEW-XMD
+cd DEW-XMD
 ```
 ```
 npm install
@@ -400,8 +381,8 @@ exit
 proot-distro login fedora
 ```
 ```
-git clone https://github.com/<your gitHub Username>/ULTRA-MD
-cd ULTRA-MD
+git clone https://github.com/<your gitHub Username>/DEW-XMD
+cd DEW-XMD
 ```
 ```
 npm install
@@ -414,31 +395,6 @@ npm start
 </p>
 
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
-
-- **Star ⭐ the repo if you like ULTRA-MD.**
-
-## Credits
-
-| [![Guru322](https://github.com/Guru322.png?size=100)](https://github.com/Guru322) | [![FG98](https://github.com/FG98F.png?size=100)](https://github.com/FG98F) | [![WhiskeySockets](https://github.com/WhiskeySockets.png?size=100)](https://github.com/WhiskeySockets) |
-| --- | --- | --- |
-| [Guru322](https://github.com/Guru322) | [FG98](https://github.com/FG98F) | [WhiskeySockets](https://github.com/WhiskeySockets) |
-
-
-
-## Main Developer
-<a href="https://github.com/GlobalTechInfo"><img src="https://github.com/GlobalTechInfo.png" width="250" height="250" alt="GlobalTechInfo"/></a>
-  
-`ULTRA-MD - By GlobalTechInfo`
-
-
-<h2 align="center">  NOTICE
-</h2>
-   
-## 
-- Not For Sale
-- If A plugin's code is obfuscated , You don't have permission to edit it in any form 
-- Don't Forget to Give Credits If you are using or Reuploading My Plugins/files
-- Have A Good Day
 
 
   
