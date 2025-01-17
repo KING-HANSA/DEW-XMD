@@ -1,7 +1,7 @@
 let handler = async (m, { conn, text, usedPrefix, command }) => {
   // Sound
   let name = m.pushName || conn.getName(m.sender);
-  let img = 'https://i.imgur.com/JL9z4b0.jpeg';
+  let img = 'https://raw.githubusercontent.com/DJDewmina/DEW-XMD/refs/heads/main/assets/DEW-XMD.jpg';
   let con = {
     key: {
       fromMe: false,

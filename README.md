@@ -3,7 +3,7 @@
 
 <p align="center">  
   <a href="https://youtu.be/nE4v4KWBfAU">
-    <img alt="ULTRA" src="https://i.imgur.com/JL9z4b0.jpeg">
+    <img alt="ULTRA" src="https://raw.githubusercontent.com/DJDewmina/DEW-XMD/refs/heads/main/assets/DEW-XMD.jpg">
   </a>
 </p>
 <p align="center">
