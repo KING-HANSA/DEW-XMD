@@ -81,7 +81,7 @@ global.dygp = 'https://whatsapp.com/channel/0029Varwcfc7YSd60AulNF2h'
 global.fgsc = 'https://github.com/KING-HANSA/DEW-XMD'
 global.fgyt = 'https://youtube.com/@KingHansa'
 global.fgpyp = 'https://youtube.com/@KingHansa'
-global.fglog = 'https://i.imgur.com/JL9z4b0.jpeg'
+global.fglog = 'https://i.imgur.com/YXp71EV.jpeg'
 global.thumb = fs.readFileSync('./assets/DEW-XMD.jpg')
 
 global.wait = '⏳'
