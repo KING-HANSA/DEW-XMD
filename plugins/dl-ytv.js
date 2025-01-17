@@ -72,13 +72,13 @@ const handler = async (m, { args, conn, usedprefix }) => {
         await m.react('✅'); // React with a checkmark emoji for success
     } catch (error) {
         console.error('Error fetching video:', error.message, error.stack);
-        await m.reply('An error occurred while fetching the video. Please try again later.');
+        await m.reply('කරුණාකර මදක් රැදී සිටින්න.');
         await m.react('❌'); // React with a cross emoji for errors
     }
 };
 
-handler.help = ['ytmp4', 'ytv'];
+handler.help = ['video'];
 handler.tags = ['dl'];
-handler.command = ['ytmp4', 'ytv'];
+handler.command = ['video'];
 
 export default handler;
