@@ -9,10 +9,10 @@ let handler = async function (m, { conn, text, usedPrefix }) {
 ▢ Don't be Sad
 └──────────────`;
   
-  let pp = './assets/A.jpg';
+  let pp = './assets/DEW-XMD.jpg';
 
   // Send a button message
-  await conn.sendButton(m.chat, m2, 'ULTRA-MD', pp, [
+  await conn.sendButton(m.chat, m2, 'DEW-XMD', pp, [
     ['⏍ Info', `${usedPrefix}botinfo`],
     ['⌬ Group', `${usedPrefix}grp`]
   ], m, { quoted: m });
