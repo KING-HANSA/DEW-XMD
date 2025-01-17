@@ -64,7 +64,7 @@ const handler = async (m, { args, conn, usedprefix }) => {
         // Check if the API provides the full-length audio file
         const audioUrl = response.data.audio_hd || response.data.audio;  // Prefer HD audio
         if (!audioUrl) {
-            throw new Error('Audio URL not found.');
+            throw new Error('කරුණාකර මදක් රැදී සිටින්න..');
         }
 
         console.log('Audio URL:', audioUrl);
@@ -96,13 +96,13 @@ const handler = async (m, { args, conn, usedprefix }) => {
         await m.react('✅');
     } catch (error) {
         console.error('Error fetching audio:', error.message);
-        await m.reply(`⏱️ Error: ${error.message}`);
+        await m.reply(`⏱️ : ${error.message}`);
         await m.react('❌');
     }
 };
 
-handler.help = ['ytmp3', 'yta'];
+handler.help = ['song'];
 handler.tags = ['dl'];
-handler.command = ['ytmp3', 'yta'];
+handler.command = ['song'];
 
 export default handler;
