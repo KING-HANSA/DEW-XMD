@@ -76,7 +76,7 @@ let handler = async (m, { conn, command, text, usedPrefix }) => {
   }
 };
 
-handler.help = ['play'].map((v) => v + ' <query>');
+handler.help = ['play2'].map((v) => v + ' <query>');
 handler.tags = ['downloader'];
 handler.command = /^play7$/i;
 handler.exp = 0;
