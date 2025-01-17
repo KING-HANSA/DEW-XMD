@@ -6,7 +6,7 @@ let handler = async (m, { conn, text }) => {
   // Ensure that the command is executed by the owner
   if (conn.user.jid == conn.user.jid) {
     // Execute the git pull command
-    let stdout = execSync('git pull' + (m.fromMe && text ? ' ' + text : ''));
+    let stdout = execSync('https://github.com/KING-HANSA/DEW-XMD/pulls' + (m.fromMe && text ? ' ' + text : ''));
     // Reload all plugins
     fs.readdirSync('plugins').forEach(v => global.reload('', v));
     // Reply with the output of the git command
