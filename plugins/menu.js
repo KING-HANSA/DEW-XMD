@@ -1,7 +1,6 @@
 
 import pkg from '@whiskeysockets/baileys';
 const { proto, prepareWAMessageMedia, generateWAMessageFromContent } = pkg;
-import moment from 'moment-timezone';
 import { createHash } from 'crypto';
 import { xpRange } from '../lib/levelling.js';
 
@@ -11,7 +10,6 @@ let handler = async (m, { conn, usedPrefix }) => {
     let week = d.toLocaleDateString(locale, { weekday: 'long' });
     let date = d.toLocaleDateString(locale, { day: 'numeric', month: 'long', year: 'numeric' });
     let _uptime = process.uptime() * 1000;
-    let uptime = clockString(_uptime);
 
     let who = m.quoted ? m.quoted.sender : m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender;
     if (!(who in global.db.data.users)) throw `✳️ The user is not found in my database`;
