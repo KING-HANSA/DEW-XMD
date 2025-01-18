@@ -15,9 +15,9 @@ const replyMessage = message.length === 0 ? "" : message
 const totalUsers = uniqueUsers.size;
 const responseMessage = `${` –  *S E R B O T  -  S U B B O T S*\n\n${replyMessage.trim()}`.trim()}`
   
-let img = await (await fetch(`https://i.imgur.com/JL9z4b0.jpeg`)).buffer()
+let img = await (await fetch(`https://i.imgur.com/YXp71EV.jpeg`)).buffer()
 
-await _envio.sendFile(m.chat, img, 'thumbnail.jpg', responseMessage, m, false, { mentions: _envio.parseMention(responseMessage) })
+await _envio.sendFile(m.chat, img, 'DEW-XMD.jpg', responseMessage, m, false, { mentions: _envio.parseMention(responseMessage) })
 }
 handler.command = ['listjadibot', 'bots']
 handler.help = ['bots']
