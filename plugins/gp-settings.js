@@ -1,15 +1,15 @@
 let handler = async (m, { conn, args, usedPrefix, command }) => {
     let isClose = { // Switch Case Like :v
-        'open': 'not_announcement',
-        'close': 'announcement',
+        'unmute': 'not_announcement',
+        'mute': 'announcement',
     }[(args[0] || '')]
     if (isClose === undefined)
 
     return m.reply(`
 🛡️ ${mssg.gpSetting}
 
-*▢ ${usedPrefix + command} close*
-*▢ ${usedPrefix + command} open*
+*▢ ${command}*
+*▢ ${command}*
 `)
     await conn.groupSettingUpdate(m.chat, isClose)
 }
