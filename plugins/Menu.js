@@ -77,7 +77,7 @@ let str = `
 ◈┃• fancy
 ◈┗━♪♪━★━☆━⦿
 
-© Dew-MD
+© DEW-XMD
 > 💡 *_Remember, when in doubt, use ${usedPrefix}listmenu or ${usedPrefix}help It's like my magic spell book!_* 💡
 `
 
