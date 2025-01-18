@@ -21,10 +21,10 @@ let handler = async function (m, { conn, __dirname }) {
 ⭐ Stars: ${repoData.stargazers_count}
 🍴 Forks: ${repoData.forks_count}
 🌐 URL: ${repoData.html_url}
-                                            🎁 Bot Menu 
-                                            🖲️Owner Menu
-                                            🎉 AI Menu
-                                            🎧 Audio Menu
+🎁 Bot Menu 
+🖲️Owner Menu
+🎉 AI Menu
+🎧 Audio Menu
       `.trim()
 
       // Send the formatted information as a message
@@ -36,10 +36,10 @@ let handler = async function (m, { conn, __dirname }) {
             amount1000: 69000,
             requestFrom: m.sender,
             noteMessage: {
-              extendedTextMessage: {
+              extendedTextMessage: {Hansa
                 text: formattedInfo,
                 contextInfo: {
-                  externalAdReply: {
+                  externalAdReply: {hansa
                     showAdAttribution: true,
                   },
                 },
