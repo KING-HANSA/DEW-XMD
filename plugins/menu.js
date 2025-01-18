@@ -21,7 +21,7 @@ let handler = async (m, { conn, usedPrefix }) => {
     let greeting = ucapan();
 
     let str = `
-      『 *DEW-MD* 』  
+      『 *DEW-XMD* 』  
       © 2024 *Hansa Dewmina*`;
 
     let msg = generateWAMessageFromContent(m.chat, {
@@ -52,7 +52,7 @@ let handler = async (m, { conn, usedPrefix }) => {
                                     "title": "TAP TO OPEN",
                                     "sections": [{
                                         "title": "HERE IS BUTTONS MENU",
-                                        "highlight_label": "DEW-MD",
+                                        "highlight_label": "DEW-XMD",
                                         "rows": [
                                             { "header": "", "title": "🎁 Bot Menu", "description": "The Bot's secret control panel.", "id": `${usedPrefix}botmenu` },
                                             { "header": "", "title": "🖲️ Owner Menu", "description": "Yep, that's for you, Boss!", "id": `${usedPrefix}ownermenu` },
@@ -86,7 +86,7 @@ let handler = async (m, { conn, usedPrefix }) => {
                                 "name": "cta_url",
                                 "buttonParamsJson": JSON.stringify({
                                     "display_text": "OWNER 🌟",
-                                    "url": "https://wa.me/message/HA35ZL76JSHJB1"
+                                    "url": "https://wa.me/94701515609"
                                 })
                             },
                             {
