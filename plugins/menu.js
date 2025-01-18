@@ -1,6 +1,6 @@
-
 import pkg from '@whiskeysockets/baileys';
 const { proto, prepareWAMessageMedia, generateWAMessageFromContent } = pkg;
+import moment from 'moment-timezone';
 import { createHash } from 'crypto';
 import { xpRange } from '../lib/levelling.js';
 
@@ -10,6 +10,7 @@ let handler = async (m, { conn, usedPrefix }) => {
     let week = d.toLocaleDateString(locale, { weekday: 'long' });
     let date = d.toLocaleDateString(locale, { day: 'numeric', month: 'long', year: 'numeric' });
     let _uptime = process.uptime() * 1000;
+    let uptime = clockString(_uptime);
 
     let who = m.quoted ? m.quoted.sender : m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender;
     if (!(who in global.db.data.users)) throw `✳️ The user is not found in my database`;
@@ -46,16 +47,17 @@ let handler = async (m, { conn, usedPrefix }) => {
                     nativeFlowMessage: proto.Message.InteractiveMessage.NativeFlowMessage.create({
                         buttons: [
                             {
-                                "name": "single_select",
+                                "name": "quick_reply",
                                 "buttonParamsJson": JSON.stringify({
-                                    "title": "TAP TO OPEN",
-                                    "sections": [{
-                                        "title": "HERE IS BUTTONS MENU",
-                                        "highlight_label": "ULTRA",
-                                        "rows": [
-                                            { "header": "", "title": "🌄 NSFW Menu", "description": "The After Dark menu.", "id": `${usedPrefix}nsfwmenu` }
-                                        ]
-                                    }]
+                                    "display_text": "MENU2 ❇️",
+                                    "id": `${usedPrefix}menu2`
+                                })
+                            },
+                            {
+                                "name": "cta_url",
+                                "buttonParamsJson": JSON.stringify({
+                                    "display_text": "OWNER 🌟",
+                                    "url": "https://wa.me/message/HA35ZL76JSHJB1"
                                 })
                             },
                             {
@@ -81,4 +83,29 @@ handler.help = ['main'];
 handler.tags = ['group'];
 handler.command = ['menu2', 'help2', 'h', 'commands2'];
 
-export default handler
+export default handler;
+
+function clockString(ms) {
+    let h = isNaN(ms) ? '--' : Math.floor(ms / 3600000);
+    let m = isNaN(ms) ? '--' : Math.floor(ms / 60000) % 60;
+    let s = isNaN(ms) ? '--' : Math.floor(ms / 1000) % 60;
+    return [h, m, s].map(v => v.toString().padStart(2, 0)).join(':');
+}
+
+function ucapan() {
+    const time = moment.tz('Asia/Karachi').format('HH');
+    let res = "happy early in the day☀️";
+    if (time >= 4) {
+        res = "Good Morning 🥱";
+    }
+    if (time >= 10) {
+        res = "Good Afternoon 🫠";
+    }
+    if (time >= 15) {
+        res = "Good Afternoon 🌇";
+    }
+    if (time >= 18) {
+        res = "Good Night 🌙";
+    }
+    return res;
+}
