@@ -3,8 +3,26 @@ import { join } from 'path'
 import axios from 'axios'
 
 let handler = async (m, { conn, usedPrefix }) => {
+    let d = new Date(new Date() + 3600000);
+    let locale = 'en';
+    let week = d.toLocaleDateString(locale, { weekday: 'long' });
+    let date = d.toLocaleDateString(locale, { day: 'numeric', month: 'long', year: 'numeric' });
+    let _uptime = process.uptime() * 1000;
+    let uptime = clockString(_uptime);
 
-const formattedInfo = `
+let handler = async function (m, { conn, __dirname }) {
+  const githubRepoURL = 'https://github.com/KING-HANSA/DEW-XMD'
+
+  try {
+    const [, username, repoName] = githubRepoURL.match(/github\.com\/([^/]+)\/([^/]+)/)
+
+    const response = await axios.get(`https://api.github.com/repos/${username}/${repoName}`)
+
+    if (response.status === 200) {
+      const repoData = response.data
+
+      // Format the repository information with emojis
+      const formattedInfo = `
 📂 Repository Name: ${repoData.name}
 📝 Description: ${repoData.description}
 👤 Owner: ${repoData.owner.login}
@@ -45,8 +63,33 @@ const formattedInfo = `
   }
 }
 
-handler.help = ['menu2']
+handler.help = ['script']
 handler.tags = ['main']
-handler.command = ['menu2', 'h', 'help2']
+handler.command = ['sc', 'repo', 'script']
 
-export default handler
+export default handler;
+
+function clockString(ms) {
+    let h = isNaN(ms) ? '--' : Math.floor(ms / 3600000);
+    let m = isNaN(ms) ? '--' : Math.floor(ms / 60000) % 60;
+    let s = isNaN(ms) ? '--' : Math.floor(ms / 1000) % 60;
+    return [h, m, s].map(v => v.toString().padStart(2, 0)).join(':');
+}
+
+function ucapan() {
+    const time = moment.tz('Asia/Karachi').format('HH');
+    let res = "happy early in the day☀️";
+    if (time >= 4) {
+        res = "Good Morning 🥱";
+    }
+    if (time >= 10) {
+        res = "Good Afternoon 🫠";
+    }
+    if (time >= 15) {
+        res = "Good Afternoon 🌇";
+    }
+    if (time >= 18) {
+        res = "Good Night 🌙";
+    }
+    return res;
+}
