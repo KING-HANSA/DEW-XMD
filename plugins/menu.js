@@ -45,8 +45,8 @@ const formattedInfo = `
   }
 }
 
-handler.help = ['script']
+handler.help = ['menu2']
 handler.tags = ['main']
-handler.command = ['sc', 'repo', 'script']
+handler.command = ['menu2', 'h', 'help2']
 
 export default handler
