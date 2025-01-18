@@ -71,7 +71,7 @@ const handler = async (m, { args, conn, usedprefix }) => {
 
         const title = response.data.title || 'audio';
         const safeTitle = title.substring(0, 4).replace(/[<>:"/\\|?*]/g, '_'); // Get the first four characters
-        const caption = `POWERED BY DEW-XMD`;
+        const caption = `POWERED BY ULTRA`;
 
         const mediaResponse = await fetchWithRetry(audioUrl, {
             headers: {
