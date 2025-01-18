@@ -62,4 +62,3 @@ handler.register = true
 handler.premium = false
 
 export default handler
-*/
