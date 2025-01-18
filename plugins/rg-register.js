@@ -6,13 +6,13 @@ let handler = async function (m, { conn, text, usedPrefix, command }) {
   let user = global.db.data.users[m.sender]
   let name2 = conn.getName(m.sender)
   if (user.registered === true)
-    throw `✳️ You are already registered\n\nDo you want to re-register?\n\n 📌 Use this command to remove your record \n*${usedPrefix}unreg* <Serial number>`
+    throw `✳️ ඔබ දැනටමත් ලියාපදිංචි වී ඇත\n\nඔබට නැවත ලියාපදිංචි වීමට අවශ්‍යද?\n\n 📌 Use this command to remove your record \n*${usedPrefix}unreg* <Serial number>`
   if (!Reg.test(text))
-    throw `⚠️ Format incorrect\n\n ✳️ Use this command: *${usedPrefix + command} name.age*\n📌Exemple : *${usedPrefix + command}* ${name2}.16`
+    throw `⚠️ ආකෘතිය වැරදියි\n\n ✳️ මෙම command එක භාවිතා කරන්න: *${usedPrefix + command} name.age*\n📌Exemple : *${usedPrefix + command}* ${name2}.16`
   let [_, name, splitter, age] = text.match(Reg)
-  if (!name) throw '✳️ The name cannot be empty'
-  if (!age) throw '✳️ age cannot be empty'
-  if (name.length >= 30) throw '✳️The name is too long'
+  if (!name) throw '✳️ නම හිස් විය නොහැක'
+  if (!age) throw '✳️ වයස හිස් විය නොහැක.'
+  if (name.length >= 30) throw '✳️නම දිග වැඩියි'
   age = parseInt(age)
   if (age > 100) throw '👴🏻 Wow grandpa wants to play bot'
   if (age < 5) throw '🚼  there is a grandpa baby jsjsj '
