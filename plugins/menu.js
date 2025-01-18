@@ -61,20 +61,6 @@ let handler = async (m, { conn, usedPrefix }) => {
                                 })
                             },
                             {
-                                "name": "quick_reply",
-                                "buttonParamsJson": JSON.stringify({
-                                    "display_text": "MENU2 ❇️",
-                                    "id": `${usedPrefix}menu2`
-                                })
-                            },
-                            {
-                                "name": "cta_url",
-                                "buttonParamsJson": JSON.stringify({
-                                    "display_text": "OWNER 🌟",
-                                    "url": "https://wa.me/message/HA35ZL76JSHJB1"
-                                })
-                            },
-                            {
                                 "name": "cta_url",
                                 "buttonParamsJson": JSON.stringify({
                                     "display_text": "SCRIPT 💕",
@@ -97,29 +83,4 @@ handler.help = ['main'];
 handler.tags = ['group'];
 handler.command = ['menu2', 'help2', 'h', 'commands2'];
 
-export default handler;
-
-function clockString(ms) {
-    let h = isNaN(ms) ? '--' : Math.floor(ms / 3600000);
-    let m = isNaN(ms) ? '--' : Math.floor(ms / 60000) % 60;
-    let s = isNaN(ms) ? '--' : Math.floor(ms / 1000) % 60;
-    return [h, m, s].map(v => v.toString().padStart(2, 0)).join(':');
-}
-
-function ucapan() {
-    const time = moment.tz('Asia/Karachi').format('HH');
-    let res = "happy early in the day☀️";
-    if (time >= 4) {
-        res = "Good Morning 🥱";
-    }
-    if (time >= 10) {
-        res = "Good Afternoon 🫠";
-    }
-    if (time >= 15) {
-        res = "Good Afternoon 🌇";
-    }
-    if (time >= 18) {
-        res = "Good Night 🌙";
-    }
-    return res;
-}
+export default handler
