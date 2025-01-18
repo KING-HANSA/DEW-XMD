@@ -25,14 +25,6 @@ let handler = async function (m, { conn, __dirname }) {
                                             🖲️Owner Menu
                                             🎉 AI Menu
                                             🎧 Audio Menu
-                                
-                                {
-                                "name": "quick_reply",
-                                "buttonParamsJson": JSON.stringify({
-                                    "display_text": "MENU2 ❇️",
-                                    "id": `${usedPrefix}menu2`
-                                })
-                            },
       `.trim()
 
       // Send the formatted information as a message
