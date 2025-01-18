@@ -67,11 +67,12 @@ const handler = async (m, { args, conn, usedprefix }) => {
         console.log('Media Buffer Size:', mediaBuffer.length);
         if (mediaBuffer.length === 0) throw new Error('Downloaded file is empty');
 
-        const outputPath = path.join(__dirname, `${safeTitle}.mp3`);
+        const mediaBuffer = path.join(__dirname, `${safeTitle}.mp3`);
         await convertToMp3(mediaBuffer, outputPath);
 
-        await conn.sendFile(m.chat, outputPath, path.basename(outputPath), caption, m, false, {
+        await conn.sendFile(m.chat, mediaBuffer, path.basename(mediaBuffer), caption, m, false, {
             mimetype: 'audio/mpeg'
+
         });
 
         await m.react('✅'); // React with a checkmark emoji for success
