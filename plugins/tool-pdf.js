@@ -5,7 +5,7 @@ let handler = async (m, { conn, text, usedPrefix, command, isOwner }) => {
   if (!mime) throw '*Respond / reply to an image*'
   let img = await q.download?.()
   let url = await uploadImage(img)
-  let docname = text ? text : m.pushName || 'GlobalBot'
+  let docname = text ? text : m.pushName || 'DEW-XMD'
   conn.sendFile(
     m.chat,
     `http://api.lolhuman.xyz/api/convert/imgtopdf?apikey=${lolkeysapi}&img=${url}`,
