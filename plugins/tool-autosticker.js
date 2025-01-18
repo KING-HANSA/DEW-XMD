@@ -11,7 +11,7 @@ handler.all = async function (m) {
   if (chat.autosticker && m.isGroup) {
     let q = m
     let stiker = false
-    let wm = 'GlobalTech'
+    let wm = 'DewCoders'
     let mime = (q.msg || q).mimetype || q.mediaType || ''
     if (/webp/g.test(mime)) return
     if (/image/g.test(mime)) {
