@@ -14,8 +14,8 @@ const handler = async (m, { conn, args, usedPrefix, command }) => {
   }
 };
 
-handler.help = ["downloadsw"];
-handler.tags = ["tools"];
-handler.command = /^((sw|status)(dl|download)|(dl|download)(sw|status))$/i;
+handler.help = ["statusdl"]
+handler.tags = ["tools"]
+handler.command = ["statusdl", "savestatus"]
 
 export default handler;
