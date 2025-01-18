@@ -1,7 +1,7 @@
 import fetch from 'node-fetch'
 
 let handler = async (m, { conn, args, text }) => {
-  if (!text) throw '*Please provide a URL or link to shorten.*'
+  if (!text) throw '*කෙටි කිරීමට URL එකක් ලබා දෙන්න.*'
 
   let shortUrl1 = await (await fetch(`https://tinyurl.com/api-create.php?url=${args[0]}`)).text()
 
