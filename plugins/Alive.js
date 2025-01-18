@@ -1,12 +1,12 @@
 let handler = async (m, { conn, text, usedPrefix, command }) => {
   // Sound
   let name = m.pushName || conn.getName(m.sender);
-  let img = 'https://raw.githubusercontent.com/DJDewmina/DEW-XMD/refs/heads/main/assets/DEW-XMD.jpg';
+  let img = 'https://i.imgur.com/YXp71EV.jpeg';
   let con = {
     key: {
       fromMe: false,
       participant: `${m.sender.split`@`[0]}@s.whatsapp.net`,
-      ...(m.chat ? { remoteJid: '16504228206@s.whatsapp.net' } : {}),
+      ...(m.chat ? { remoteJid: '94701515609@s.whatsapp.net' } : {}),
     },
     message: {
       contactMessage: {
