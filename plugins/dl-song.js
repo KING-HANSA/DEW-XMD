@@ -60,12 +60,17 @@ const handler = async (m, { args, conn, usedprefix }) => {
             throw new Error('Invalid content type received');
         }
 
+
         const arrayBuffer = await mediaResponse.arrayBuffer();
         const mediaBuffer = Buffer.from(arrayBuffer);
+
+        console.log('Media Buffer Size:', mediaBuffer.length);
         if (mediaBuffer.length === 0) throw new Error('Downloaded file is empty');
 
-        // Send the video file
-        await conn.sendFile(m.chat, mediaBuffer, `null`, caption, m, false, {
+        const outputPath = path.join(__dirname, `${safeTitle}.mp3`);
+        await convertToMp3(mediaBuffer, outputPath);
+
+        await conn.sendFile(m.chat, outputPath, path.basename(outputPath), caption, m, false, {
             mimetype: 'audio/mpeg'
         });
 
