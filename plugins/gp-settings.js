@@ -15,7 +15,7 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
 }
 handler.help = ['group']
 handler.tags = ['group']
-handler.command = ['group', 'grupo'] 
+handler.command = ['mute', 'unmute'] 
 handler.admin = true
 handler.botAdmin = true
 handler.group = true
