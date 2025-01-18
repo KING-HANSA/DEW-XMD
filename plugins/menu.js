@@ -65,7 +65,7 @@ let handler = async function (m, { conn, __dirname }) {
 
 handler.help = ['script']
 handler.tags = ['main']
-handler.command = ['sc', 'repo', 'script']
+handler.command = ['menu2', 'h']
 
 export default handler;
 
