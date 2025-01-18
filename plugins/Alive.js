@@ -17,7 +17,7 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
   };
 
   let messageContent = {
-    text: 'DEW-MD IS RUNNING', // Text content in case a message body is needed
+    text: '*DEW-MD IS ALIVE NOW*, *හායි ලස්සන ළමයො කොහොමද ඉතින් ඔයාට*😁😽', // Text content in case a message body is needed
     contextInfo: {
       mentionedJid: [m.sender],
       externalAdReply: {
