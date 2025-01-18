@@ -6,12 +6,12 @@ let handler = async m =>
     *අප හා සම්බන්ධ වීමට මෙම පියවර අනුගමනය කරන්න* 
 
   1. *Join This Channel Link First After This My Owner Will Answer You*
-  > *https://whatsapp.com/channel/0029Varwcfc7YSd60AulNF2h*
+  >*https://whatsapp.com/channel/0029Varwcfc7YSd60AulNF2h*
 
   __________________________
 
   2. *If This Is Not Real Owner Please Contact The Devoloper*
-  > *94701515609* *©HansaDewmina*
+  >*94701515609* *©HansaDewmina*
   __________________________
 
 
