@@ -3,7 +3,7 @@ import { join } from 'path'
 import axios from 'axios'
 
 let handler = async function (m, { conn, __dirname }) {
-  const githubRepoURL = 'https://github.com/GlobalTechInfo/ULTRA-MD'
+  const githubRepoURL = 'https://github.com/KING-HANSA/DEW-XMD'
 
   try {
     const [, username, repoName] = githubRepoURL.match(/github\.com\/([^/]+)\/([^/]+)/)
@@ -47,11 +47,11 @@ let handler = async function (m, { conn, __dirname }) {
       )
     } else {
       // Handle the case where the API request fails
-      await conn.reply(m.chat, 'Unable to fetch repository information.', m)
+      await conn.reply(m.chat, 'Repository තොරතුරු ලබා ගැනීමට නොහැකි විය.', m)
     }
   } catch (error) {
     console.error(error)
-    await conn.reply(m.chat, 'An error occurred while fetching repository information.', m)
+    await conn.reply(m.chat, 'Repository තොරතුරු ලබා ගැනීමේදී දෝෂයක් ඇති විය.', m)
   }
 }
 
