@@ -1,3 +1,4 @@
+
 import pkg from '@whiskeysockets/baileys';
 const { proto, prepareWAMessageMedia, generateWAMessageFromContent } = pkg;
 import moment from 'moment-timezone';
@@ -21,8 +22,8 @@ let handler = async (m, { conn, usedPrefix }) => {
     let greeting = ucapan();
 
     let str = `
-      『 *DEW-XMD* 』  
-      © 2024 *Hansa Dewmina*`;
+      『 *MEGA-AI* 』  
+      © 2025 *GlobalTechInfo*`;
 
     let msg = generateWAMessageFromContent(m.chat, {
         viewOnceMessage: {
@@ -39,7 +40,7 @@ let handler = async (m, { conn, usedPrefix }) => {
                         text: "Use The Below Buttons"
                     }),
                     header: proto.Message.InteractiveMessage.Header.create({
-                        ...(await prepareWAMessageMedia({ image: { url: './assets/DEW-XMD.jpg' } }, { upload: conn.waUploadToServer })),
+                        ...(await prepareWAMessageMedia({ image: { url: './assets/A.jpg' } }, { upload: conn.waUploadToServer })),
                         title: null,
                         subtitle: null,
                         hasMediaAttachment: false
@@ -52,7 +53,7 @@ let handler = async (m, { conn, usedPrefix }) => {
                                     "title": "TAP TO OPEN",
                                     "sections": [{
                                         "title": "HERE IS BUTTONS MENU",
-                                        "highlight_label": "DEW-XMD",
+                                        "highlight_label": "ULTRA",
                                         "rows": [
                                             { "header": "", "title": "🎁 Bot Menu", "description": "The Bot's secret control panel.", "id": `${usedPrefix}botmenu` },
                                             { "header": "", "title": "🖲️ Owner Menu", "description": "Yep, that's for you, Boss!", "id": `${usedPrefix}ownermenu` },
@@ -86,14 +87,14 @@ let handler = async (m, { conn, usedPrefix }) => {
                                 "name": "cta_url",
                                 "buttonParamsJson": JSON.stringify({
                                     "display_text": "OWNER 🌟",
-                                    "url": "https://wa.me/94701515609"
+                                    "url": "https://wa.me/message/HA35ZL76JSHJB1"
                                 })
                             },
                             {
                                 "name": "cta_url",
                                 "buttonParamsJson": JSON.stringify({
                                     "display_text": "SCRIPT 💕",
-                                    "url": "https://github.com/KING-HANSA/DEW-XMD"
+                                    "url": "https://github.com/GlobalTechInfo/ULTRA-MD"
                                 })
                             }
                         ],
