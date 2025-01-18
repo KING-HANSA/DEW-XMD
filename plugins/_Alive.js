@@ -21,8 +21,8 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
     contextInfo: {
       mentionedJid: [m.sender],
       externalAdReply: {
-        title: '© DEW-MD',
-        body: '© DEW-MD',
+        title: '© DEW-XMD',
+        body: '© DEW-XMD',
         thumbnailUrl: img,
         sourceUrl: 'https://whatsapp.com/channel/0029Varwcfc7YSd60AulNF2h',
         mediaType: 1,
