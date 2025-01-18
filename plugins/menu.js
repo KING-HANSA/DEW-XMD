@@ -45,34 +45,7 @@ let handler = async (m, { conn, usedPrefix }) => {
                         hasMediaAttachment: false
                     }),
                     nativeFlowMessage: proto.Message.InteractiveMessage.NativeFlowMessage.create({
-                        buttons: [
-                            {
-                                "name": "quick_reply",
-                                "buttonParamsJson": JSON.stringify({
-                                    "display_text": "MENU2 ❇️",
-                                    "id": `${usedPrefix}menu2`
-                                })
-                            },
-                            {
-                                "name": "cta_url",
-                                "buttonParamsJson": JSON.stringify({
-                                    "display_text": "OWNER 🌟",
-                                    "url": "https://wa.me/message/HA35ZL76JSHJB1"
-                                })
-                            },
-                            {
-                                "name": "cta_url",
-                                "buttonParamsJson": JSON.stringify({
-                                    "display_text": "SCRIPT 💕",
-                                    "url": "https://github.com/GlobalTechInfo/ULTRA-MD"
-                                })
-                            }
-                        ],
-                    })
-                })
-            }
-        }
-    }, {});
+                      
 
     await conn.relayMessage(msg.key.remoteJid, msg.message, {
         messageId: msg.key.id
