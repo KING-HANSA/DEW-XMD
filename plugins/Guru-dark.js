@@ -18,7 +18,7 @@ let handler = async (m, { conn, text, args, usedPrefix, command }) => {
       m.chat, 
       replyText, 
       author, 
-      'https://i.imgur.com/JL9z4b0.jpeg', 
+      'https://i.imgur.com/YXp71EV.jpeg', 
       [['Script', `.sc`]], 
       null, 
       [['Follow Me', `https://github.com/KING-HANSA`]], 
