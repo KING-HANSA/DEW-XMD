@@ -4,7 +4,7 @@ let handler = async (m, { conn, text, isROwner, isOwner }) => {
     global.db.data.chats[m.chat].sBye = text;
     m.reply(`✅ Goodbye message updated successfully!`);
   } else {
-    throw `✳️ Please provide a new goodbye message.`;
+    throw `✳️ Goodbye message සදහා යමක් ඇතුලත් කරන්න.`;
   }
 }
 
