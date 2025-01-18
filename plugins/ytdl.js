@@ -13,7 +13,7 @@ await m.react('⏳')
        txt += `	✩   *Published* : ${eYear(res[0].ago)}\n`
        txt += `	✩   *Canal* : ${res[0].author.name || 'Desconocido'}\n`
        txt += `	✩   *Url* : ${'https://youtu.be/' + res[0].videoId}\n\n`
-       txt += `> *-*Download කර ගැනීමට *Video* හෝ *Audio* *ආකාරයෙන් Reply කරන්න*.`
+       txt += `> *-Download කර ගැනීමට *Video* හෝ *Audio* *ආකාරයෙන් Reply කරන්න*.`
 await conn.sendFile(m.chat, img, 'thumbnail.jpg', txt, m)
 await m.react('✅')
 } catch {
