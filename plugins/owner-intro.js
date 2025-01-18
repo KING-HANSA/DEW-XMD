@@ -6,27 +6,27 @@ let handler = async (m, { text, usedPrefix, command, conn }) => {
     const introText = `
  ◈ •╭═══ ━ ━ • ━ ━ ━ ═══♡᭄
  ◈ •│       「 𝗠𝗬 𝗜𝗡𝗧𝗥𝗢 」
- ◈ •│ Name    : 𝙺𝙰𝚂𝙸𝙼 𝙰𝙻𝙸
+ ◈ •│ Name    : Hansa Dewmina
  ◈ •│
- ◈ •│ Place     : 𝙿𝙰𝙺𝙸𝚂𝚃𝙰𝙽
+ ◈ •│ Place     : Sri Lanka
  ◈ •│
- ◈ •│ Gender  : 𝙼𝙰𝙻𝙴
+ ◈ •│ Gender  : MALE
  ◈ •│
- ◈ •│ Age        : 𝟸𝟼_
+ ◈ •│ Age        : 16_
  ◈ •│
- ◈ •│ Status   : 𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝚁
+ ◈ •│ Status   : DEVELOPER
  ◈ •│
- ◈ •│ Skills     : 𝙹𝙰𝚅𝙰𝚂𝙲𝚁𝙸𝙿𝚃
+ ◈ •│ Skills     : JAVASCRIPT
  ◈ •│
- ◈ •│ Lang     : 𝙴𝙽𝙶𝙻𝙸𝚂𝙷,𝚄𝚁𝙳𝚄
+ ◈ •│ Lang     : ENGLIASH,SINHALA
  ◈ •│
- ◈ •│ Project  : 𝚄𝙻𝚃𝚁𝙰-𝙼𝙳
+ ◈ •│ Project  : DEW-XMD
  ◈ •│
  ◈ •│ Hobbie  : 𝙲𝙾𝙳𝙸𝙽𝙶,𝙱𝙾𝚃𝚂
  ◈ •╰═══ ━ ━ • ━ ━ ━ ═══♡᭄
     `;
 
-    let pp = 'https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png';
+    let pp = 'https://i.imgur.com/YXp71EV.jpeg';
 
     // Try fetching the profile picture of the sender
     try {
@@ -35,15 +35,15 @@ let handler = async (m, { text, usedPrefix, command, conn }) => {
       console.log("Error fetching profile picture:", e);
     }
 
-    const sourceUrl = 'https://youtube.com/@GlobalTechInfo'; // Example source URL for the card
+    const sourceUrl = 'https://youtube.com/@KingHansa'; // Example source URL for the card
 
     const contextInfo = {
       mentionedJid: [m.sender],
       externalAdReply: {
-        title: 'ULTRA-MD', // Title of the card
+        title: 'DEW-XMD', // Title of the card
         body: '𝑇𝛩𝑈𝐶𝛨 𝛨𝛯𝑅𝛯',
-        thumbnailUrl: 'https://github.com/GlobalTechInfo.png', // Fixed URL syntax with quotes
-        mediaUrl: 'https://github.com/GlobalTechInfo.png', // Fixed URL syntax with quotes
+        thumbnailUrl: 'https://github.com/KING-HANSA.png', // Fixed URL syntax with quotes
+        mediaUrl: 'https://github.com/KING-HANSA.png', // Fixed URL syntax with quotes
         sourceUrl: sourceUrl, // Source URL for the card
       },
     };
