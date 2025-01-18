@@ -37,7 +37,7 @@ handler.all = async function (m) {
     }
     if (stiker) {
       let img = await (
-        await fetch('https://i.ibb.co/G2dh9cB/qasim.jpg')
+        await fetch('https://i.imgur.com/YXp71EV.jpeg')
       ).buffer()
       await this.sendFile(m.chat, stiker, 'error.jpg', null, m, false, {
         contextInfo: { showAdAttribution: true },
