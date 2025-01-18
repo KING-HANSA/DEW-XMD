@@ -36,10 +36,10 @@ let handler = async function (m, { conn, __dirname }) {
             amount1000: 69000,
             requestFrom: m.sender,
             noteMessage: {
-              extendedTextMessage: {Hansa
+              extendedTextMessage: {
                 text: formattedInfo,
                 contextInfo: {
-                  externalAdReply: {hansa
+                  externalAdReply: {
                     showAdAttribution: true,
                   },
                 },
